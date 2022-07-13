@@ -1,0 +1,10 @@
+vresion: 1
+rules:
+  - expected: 選択
+    pattern: 洗濯
+
+  - expected: できる
+    pattern: 出来る
+
+  - expected: できる
+    pattern: デキル
