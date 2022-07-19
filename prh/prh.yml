@@ -8,3 +8,18 @@ rules:
 
   - expected: できる
     pattern: デキル
+
+  - expected: SDGS
+    pattern:
+      - /SDG(?!S)/
+      - sdgs
+      - エスディージーズ
+    specs:
+      - from: SDG
+        to: SDGS
+      - from: sdgs
+        to: SDGS
+      - from: エスディージーズ
+        to: SDGS
+
+  - expected: JavaScript
